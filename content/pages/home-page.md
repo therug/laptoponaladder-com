@@ -2,70 +2,91 @@
 id: JUJDCFVbWC
 type: page
 layout: page-builder
-title: Home Page
+title: Laptop on a Ladder
 permalink: /
 thumbnail: ""
 blocks:
   - type: hero
-    title: Henlo.
+    title: Laptop on a Ladder
     content: |-
-      ## The most advanced starter for Gatsby & Netlify CMS.
+      ## Help your office **work smarter**
 
-      Extensible, block based starter for Netlify CMS.\
-      Built with performance in mind, styled with TailwindCSS.
+      Are your office tasks building up or getting you down?
 
-      **Think lightweight WordPress.**
+      **Laptop on a Ladder gets things straight**
     variant: centered
-    buttons:
-      - button:
-          variant: default
-          content: Documentation
-          url: https://github.com/clean-commit/gatsby-starter-henlo
+    
   - type: perks
-    title: Features
+    title: 
     columns:
-      - title: Manual Initialization
-        content: Ditch yaml for CMS configuration, use JS instead
-      - title: Support For Local Development
-        content: Develop & test Netlify CMS configuration locally.
-      - title: Integrated Forms
-        content: Create forms with Netlify CMS, powered by
-          [react-hook-form](https://react-hook-form.com/).
-      - title: Integrated Previews
-        content: Blocks created by developers are instantly available for previews from
-          Netlify CMS layout
-      - title: Permalink-based page generation
-        content: "Automatically generated pages based on permalinks. "
-      - title: Modify Navigation with ease
-        content: Navigation can be modified with ease, without a need for changing the
-          code base
+      - title: Office Technology
+        content: Let's make the office-side of your business be excellent
+      - title: Automated Workflows
+        content: Work simpler, and faster
+      - title: Data Science
+        content: Get actionable insights and improve your business
+      - title: Invoicing and Accounting
+        content: Finance should just flow, and be a tool not a chore
+      - title: Brand Marketing
+        content: Get noticed. Be recognised. Strutt your stuff.
+      - title: Mobile Office
+        content: Laptop on a Ladder gets the job done - while you stay focussed on what you do best
     content: ""
   - type: content_image
-    variant: reversed
-    title: Block-based page creator with Previews
-    content: Create blocks and reuse them across different pages that can be created
-      using Netlify CMS UI. Previews will be generated automatically for all
-      blocks!
+    variant: default
+    title: Technical Support
+    content: >-
+      Let Laptop on a Ladder geek-out on your setup. 
+      
+      
+      We can get anything technology-related working well for you.
+
+
+      Whether it's devices, computer hardware, software or internet - we'll get things installed and configured, and working hard for your business.
+
+
+      All backed with straightforward tuition, and easy to follow instructions, to enable your understanding.
     buttons:
       - button:
           variant: default
           content: Get it now
           url: https://github.com/clean-commit/gatsby-starter-henlo
     photo:
-      image: /img/frame-69.png
+      image: /img/technical support.png
+      alt: Block based page creator
+  - type: content_image
+    variant: reversed
+    title: Office Admin
+    content: >-
+      From pricing a project, including preparing estimates and specifications, to customer quotations and playment plans. 
+    
+
+      Simple workflows can flow all this through to invoicing, accounts and credit control - as well as to project management. 
+      
+
+      Supported by professional customer communication at every stage.
+    buttons:
+      - button:
+          variant: default
+          content: Get it now
+          url: https://github.com/clean-commit/gatsby-starter-henlo
+    photo:
+      image: /img/office admin.png
       alt: Block based page creator
   - type: content_image
     variant: default
     photo:
       alt: Premade components schema
-      image: /img/frame-77.png
-    title: Premade components & Netlify CMS settings
+      image: /img/project management.png
+    title: Project Management
     content: >-
-      We've created a collection of basic UI elements, so you can quickly create
-      new blocks and style them from a single component.
-
-
-      We did the same for Netlify CMS configuration. You can use basic fields to create new blocks quicker then ever!
+      Get organised with detailed specifications and associated programmes of works. 
+      
+      
+      Track project budgets and progress (costs and time), including managing extras and variations. 
+      
+      
+      Feed all this info to business analysis to improve the next project and refine your business. 
     buttons:
       - button:
           variant: default
@@ -73,14 +94,48 @@ blocks:
           url: https://github.com/clean-commit/gatsby-starter-henlo
   - type: content_image
     variant: reversed
-    title: Configuration exposed through Netlify CMS
+    title: Business Analysis
     content: >-
-      No need to change configuration using `gatsby-node.js` or `.env` files!
+      Easily log project costs and expenses. Get profit-and-loss analysis on a project-by-project basis (or over time).
 
 
-      Admins of the site can setup options using Netlify CMS's UI instead. This allows for reusable themes & templates
+      Automated systems and simple workflows remove the drudgery of regular tasks.
+
+
+      Improve time management and team communications, to build a leaner business.
     photo:
-      image: /img/frame-72.png
+      image: /img/business analysis.png
+      alt: Netlify CMS configuration with Henlo
+  - type: content_image
+    variant: default
+    title: Brand Identity
+    content: >-
+      Make your mark with logo design, and brand colours and style. 
+      
+
+      Across letterheads, document templates, email signatures and marketing.
+      
+      
+      Stand out from the others and get noticed.
+    photo:
+      image: /img/brand identity.png
+      alt: Netlify CMS configuration with Henlo
+  - type: content_image
+    variant: reversed
+    title: Marketing
+    content: >-
+      Get seen.
+
+
+      Websites, social media, content marketing and more - all working together to tell your ideal story to your ideal audience.
+      
+
+      Photography, video editing, flyers and banners, online ads. Whatever it takes to drive your business forward.
+      
+
+      We'll make it look sharp, and get results.
+    photo:
+      image: /img/marketing.png
       alt: Netlify CMS configuration with Henlo
 seo:
   ogimage: /img/henlo-cover.png
